@@ -1,0 +1,29 @@
+#navbar {
+    background: #4b4b4b;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#logo {
+    color: #ebcb80;
+    font-size: 30pt;
+    user-select: none;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation div {
+    font-size: 12pt;
+    margin: 0 3px;
+}
+
+#navigation div:nth-last-child(1) {
+    border: 1px solid white;
+}

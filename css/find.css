@@ -1,0 +1,57 @@
+#find-section {
+    color: #4b4b4b;
+    background-image: url("../images/hero image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14vw 10vw;
+}
+
+#find-section h2 {
+    font-size: 30pt;
+    margin: 0;
+}
+
+#find-section h5 {
+    font-size: 12pt;
+    margin: 2em 0;
+}
+
+#find-section-input {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#find-section-input input {
+    padding: 1em;
+    background: transparent;
+    border: 1px solid #4B4B4B;
+    font-size: 11pt;
+    border-radius: 0.5em;
+    margin-right: 3em;
+}
+
+#find-button {
+    font-size: 12pt;
+    border: 1px solid #4B4B4B;
+}
+
+#flying-icons {
+    display: flex;
+    margin: 50px 0;
+}
+
+#flying-icons div {
+    background: #4B4B4B;
+    font-size: 18pt;
+    width: 3em;
+    height: 3em;
+    margin: 0 1em;
+    border-radius: 50px;
+}

@@ -1,0 +1,78 @@
+#plan-section {
+    background: #4b4b4b;
+    padding: 3vw 3vw;
+}
+
+#plan-section h1 {
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 2em;
+    color: white;
+}
+
+#plans {
+    display: flex;
+    font-size: 1.5vw;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+#silver-plan {
+    background: #6b6b6b;
+}
+
+#gold-plan {
+    background: #4b4b4b;
+}
+
+#platinum-plan {
+    background: #303030;
+}
+
+.plan {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 14vw;
+    padding: 3%;
+    border-radius: 0.5em;
+    color: white;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.75);
+}
+
+.plan div:nth-child(1) {
+    color: #ebcb80;
+    transition: all 0.25s ease-in-out;
+}
+
+.purchase {
+    background: #ebcb80;
+    color: #4b4b4b;
+    font-size: 1.5vw;
+    transition: all 0.25s ease-in-out;
+}
+
+.plan:hover {
+    color: #4b4b4b;
+    background: #f1da98 !important;
+}
+
+.plan:hover>.purchase {
+    background: #4b4b4b;
+    color: white !important;
+}
+
+.plan:hover>div:nth-child(1) {
+    color: #4b4b4b !important;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.price span:nth-child(2) {
+    font-size: 5vw;
+}
