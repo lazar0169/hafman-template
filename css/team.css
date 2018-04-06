@@ -4,24 +4,28 @@
 }
 
 #team-section h1 {
-    font-size: 30pt;
-    margin: 50px 0;
+    font-size: 3vw;
+    margin: 1em 0;
     font-weight: bold;
 }
 
 #team-members {
-    margin: 50px 0;
+    margin: 1em 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 1em;
+    grid-gap: 1vw;
+    grid-row-gap: 3vw;
     max-width: 100%;
-    grid-row-gap: 4em;
+}
+
+#team-members img {
+    width: 5vw;
 }
 
 #team-members div {
     display: flex;
-    font-size: 12pt;
+    font-size: 1vw;
 }
 
 #team-members div div {
