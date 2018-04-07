@@ -1,34 +1,30 @@
-#plan-section {
+#advantages-section {
     background: #4b4b4b;
     padding: 5vw 3vw;
 }
 
-#plan-section h1 {
+#advantages-section h1 {
     text-align: center;
     font-size: 3vw;
-    margin-bottom: 2em;
     color: white;
+    margin: 1vw;
 }
 
-#plans {
+#advantages-section h5 {
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+    margin: 0 0 4vw 0;
+    padding: 0 26vw;
+}
+
+#advantages {
     display: flex;
     font-size: 1.5vw;
     justify-content: space-evenly;
 }
 
-#silver-plan {
-    background: linear-gradient(45deg, #4b4b4b, #6f6f6f);
-}
-
-#gold-plan {
-    background: linear-gradient(45deg, #3a3939, #636161);
-}
-
-#platinum-plan {
-    background: linear-gradient(45deg, #2b2b2b, #4a4a4a);
-}
-
-.plan {
+.advantage {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -39,40 +35,41 @@
     color: white;
     transition: all 0.25s ease-in-out;
     box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.75);
+    background: linear-gradient(45deg, #2b2b2b, #4a4a4a);
     cursor: default;
 }
 
-.plan div:nth-child(1) {
+.advantage strong {
+    margin: 2vw 0 0 0;
+    font-size: 1vw;
+}
+
+.advantage p {
+    font-size: 1.4vw;
+}
+
+.advantage div:nth-child(1) {
     color: #ebcb80;
     transition: all 0.25s ease-in-out;
 }
 
-.purchase {
+.find {
     background: #ebcb80;
     color: #4b4b4b;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     transition: all 0.25s ease-in-out;
 }
 
-.plan:hover {
+.advantage:hover {
     color: #4b4b4b;
     background: #f1da98 !important;
 }
 
-.plan:hover>.purchase {
+.advantage:hover>.find {
     background: #4b4b4b;
     color: white !important;
 }
 
-.plan:hover>div:nth-child(1) {
+.advantage:hover>div:nth-child(1) {
     color: #4b4b4b !important;
-}
-
-.price {
-    display: flex;
-    justify-content: center;
-}
-
-.price span:nth-child(2) {
-    font-size: 5vw;
 }

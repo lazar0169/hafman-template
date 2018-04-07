@@ -33,7 +33,7 @@
 #find-section-input input {
     padding: 1em;
     background: transparent;
-    border: 1px solid #4B4B4B;
+    border: 1px solid #4b4b4b;
     font-size: 1vw;
     border-radius: 0.5em;
     margin-right: 3em;
@@ -41,7 +41,7 @@
 
 #find-button {
     font-size: 1vw;
-    border: 1px solid #4B4B4B;
+    border: 1px solid #4b4b4b;
 }
 
 #flying-icons {
@@ -50,7 +50,7 @@
 }
 
 #flying-icons div {
-    background: #4B4B4B;
+    background: #4b4b4b;
     font-size: 1.2vw;
     width: 3em;
     height: 3em;
