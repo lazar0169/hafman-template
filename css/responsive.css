@@ -1,0 +1,128 @@
+@media all and (min-width: 480px) and (max-width: 768px) {
+    /* FIND SECTION */
+    #find-section h1 {
+        font-size: 4.5vw;
+        margin: 0.1em 2em;
+    }
+    #find-section h5 {
+        font-size: 1.7vw;
+    }
+    #find-section-input input {
+        margin-right: 2em;
+        font-size: 2vw;
+    }
+    #find-button {
+        font-size: 2vw;
+    }
+    #flying-icons {
+        display: flex;
+        margin: 3vw 0;
+    }
+    #flying-icons div {
+        width: 6em;
+        height: 6em;
+        margin: 0 4em;
+    }
+    /* TEAM SECTION */
+    #team-members {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    #team-members img {
+        width: 8vw;
+    }
+    #team-members div {
+        font-size: 1.6vw;
+    }
+    #team-section h1 {
+        font-size: 5vw;
+    }
+    /* PLAN SECTION */
+    #plan-section h1 {
+        font-size: 5vw;
+    }
+    #plans {
+        justify-content: space-between;
+    }
+    .price {
+        margin: 2em 0;
+    }
+    .plan {
+        width: 21vw;
+        padding: 4%;
+    }
+    .plan p {
+        line-height: 2em;
+    }
+    /* COMMENTS SECTION */
+    #comment>img {
+        width: 13vw;
+    }
+    .arrow {
+        display: none;
+    }
+    #comment>p {
+        padding: 0 7em;
+    }
+    /* ADVANTAGES SECTION */
+    #advantages {
+        justify-content: space-between;
+    }
+    .advantage {
+        width: 19vw;
+        padding: 5%;
+    }
+    .advantage p {
+        font-size: 1.5vw;
+        line-height: 1.7em;
+    }
+    .find {
+        font-size: 1.6vw;
+    }
+    .advantage strong {
+        margin: 2vw 0;
+        font-size: 1.4vw;
+    }
+    #advantages-section h1 {
+        font-size: 5vw;
+    }
+    #advantages-section h5 {
+        font-size: 1.7vw;
+        padding: 0 8vw;
+    }
+    /* PLACES SECTION */
+    #places-img>img {
+        width: 25vw;
+    }
+    #places-section>h1 {
+        font-size: 5vw;
+    }
+    #places-nav>div {
+        font-size: 1.6vw;
+        margin: 0 2em;
+    }
+    /* ACCOUNT SECTION */
+    #account-section>h1 {
+        font-size: 5vw;
+    }
+    #account-section>form {
+        width: 40vw;
+        padding: 4vw;
+    }
+    #account-section>form>div {
+        margin: 2vw 0;
+        font-size: 2.3vw;
+    }
+    #account-section>form>input {
+        padding: 1.3vw;
+        font-size: 1.7vw;
+    }
+    #account-section>form>a {
+        font-size: 2vw;
+        margin: 3vw 0;
+    }
+    #account-section>form>button {
+        width: 22vw;
+        font-size: 2.2vw;
+    }
+}

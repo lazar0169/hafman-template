@@ -54,5 +54,7 @@
     background: #ebcb80;
     color: #4b4b4b;
     border: none;
+    width: 13vw;
     font-size: 1.2vw;
+    margin: auto;
 }
