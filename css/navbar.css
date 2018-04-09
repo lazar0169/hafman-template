@@ -27,3 +27,7 @@
 #navigation div:nth-last-child(1) {
     border: 1px solid white;
 }
+
+#hamburger {
+    display: none;
+}
